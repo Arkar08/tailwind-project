@@ -74,7 +74,7 @@ const Latest = () => {
         </div>
       </div>
       <div className='text-center'>
-      <button className='p-4 w-[250px] uppercase bg-white text-black border rounded text-xs font-semibold hover:bg-black hover:text-white'>view all latest photos</button>
+      <button className='p-4 w-[250px] uppercase bg-white text-black border rounded text-xs font-semibold hover:bg-black hover:text-white mb-10'>view all latest photos</button>
       </div>
     </>
   )

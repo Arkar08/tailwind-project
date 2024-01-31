@@ -1,5 +1,6 @@
 import React from 'react';
 import Latest from './Latest';
+import Featured from './Featured';
 
 const Home = () => {
   return (
@@ -67,6 +68,7 @@ const Home = () => {
         </div>
       </div>
       <Latest />
+      <Featured />
     </div>
     </>
   )
