@@ -1,12 +1,14 @@
 import React from 'react';
-import Latest from './Latest';
-import Featured from './Featured';
-import Footer from './Footer';
+import UseLatest from '../Components/Latest';
+import Featured from '../Components/Featured';
+import Footer from '../Components/Footer';
+import Navbar from '../Components/Navbar';
 
 const Home = () => {
   return (
     <>
-    <div className='max-w-[1240px] w-full mx-auto bg-white h-screen py-12'>
+    <Navbar />
+    <div className='max-w-[1240px] w-full mx-auto bg-white h-screen py-12 items-center'>
       <div className='grid md:grid-cols-2 p-4'>
         <img src="https://assets.website-files.com/5b47286ba09814724c5a5ff4/5b48e5a3c57559300cd83d22_image-15.jpg" alt="" className='w-full'/>
         <div className="text mx-10 select-none">
@@ -68,7 +70,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <Latest />
+      <UseLatest />
       <Featured />
       <Footer />
     </div>

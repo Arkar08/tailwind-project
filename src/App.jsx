@@ -1,15 +1,20 @@
 import './App.css'
-import Home from './Components/Home'
-import Navbar from './Components/Navbar'
+import Latest from './Pages/Latest'
+import About from './Pages/About';
+import Home from './Pages/Home';
+import { BrowserRouter as Router , Routes ,Route } from 'react-router-dom';
 
 function App() {
   
 
   return (
-    <div>
-      <Navbar />
-      <Home />
-    </div>
+    <Router>
+      <Routes>
+        <Route path='/' element={<Home />}/>
+        <Route path='/about' element={<About />}/>
+        <Route path='/latest' element={<Latest />}/>
+      </Routes>
+    </Router>
   )
 }
 

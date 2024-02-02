@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Latest = () => {
+const UseLatest = () => {
   return (
     <>
     <hr />
@@ -80,4 +80,4 @@ const Latest = () => {
   )
 }
 
-export default Latest;
+export default UseLatest;
