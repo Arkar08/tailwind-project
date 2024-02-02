@@ -1,6 +1,7 @@
 import React from 'react';
 import Latest from './Latest';
 import Featured from './Featured';
+import Footer from './Footer';
 
 const Home = () => {
   return (
@@ -69,6 +70,7 @@ const Home = () => {
       </div>
       <Latest />
       <Featured />
+      <Footer />
     </div>
     </>
   )
