@@ -1,8 +1,8 @@
-import React from 'react'
+import React from 'react';
 
 const Footer = () => {
   return (
-    <div className='py-12 bg-black text-white'>
+    <div className='py-8 bg-black text-white w-full'>
       <div className='items-center py-8'>
         <h1 className='lg:text-2xl md:text-2xl sm:text-xl text-white uppercase px-4'>Noiceland
         <span className='text-gray-500 text-sm px-4'>© 2018 NOICELAND™, ALL RIGHTS RESERVED</span>
@@ -10,8 +10,8 @@ const Footer = () => {
       </div>
       <hr />
 
-      <div>
-        <h4 className='text-gray-500 py-4 lowercase px-3'>CATEGORIES</h4>
+      <div className='px-8'>
+        <h4 className='text-gray-500 py-4 lowercase'>CATEGORIES</h4>
         <div className='md:grid gap-5 grid-cols-6 px-3 items-center justify-center'>
           <div className="item">
             <h2 className='p-4'>Animation</h2>
@@ -35,7 +35,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className='md:grid gap-5 grid-cols-6 px-3 items-center justify-center mt-4 text-center'>
+      <div className='md:grid gap-5 grid-cols-6 p-8 items-center justify-center mt-4 text-center'>
           <div className="item">
           <h4 className='text-gray-500 py-4 lowercase px-3 text-center'>INFORMATION</h4>
             <h2 className='p-4 text-sm'>about</h2>

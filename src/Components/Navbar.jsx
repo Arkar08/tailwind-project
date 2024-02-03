@@ -9,8 +9,8 @@ const Navbar = () => {
   const [isOpen , setIsOpen] = useState(false);
   return (
     <>
-    <div className="w-full bg-white max-w-[1240px] mx-auto px-8 mt-4 border-b sticky top-0 items-center">
-      <div className="flex justify-between items-center text-center w-full">
+    <div className="w-full bg-white max-w-[1240px] mx-auto px-8 mt-4 sticky top-0 items-center">
+      <div className="flex justify-between items-center text-center w-full border-b">
         <h1 className="text-2xl font-bold uppercase p-4">Noiceland</h1>
         <div onClick={()=>setIsOpen(!isOpen)} className=" md:hidden  block absolute top-5 right-5">
           {
