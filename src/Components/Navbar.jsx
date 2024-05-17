@@ -39,11 +39,11 @@ const Navbar = () => {
               </li>
             </ul>
           </div>
-          <div className="md:hidden">
+          <div>
             <ul
               className={`${
                 isOpen
-                  ? "top-[-600px] fixed left-0 ease-in-out"
+                  ? "top-[-600px] fixed left-0 ease-in-out hidden duration-500"
                   : "fixed top-20 duration-500 ease-in-out w-full  bg-white left-0"
               }`}
             >
