@@ -39,7 +39,7 @@ const Navbar = () => {
               </li>
             </ul>
           </div>
-          <div>
+          <div className="md:hidden">
             <ul
               className={`${
                 isOpen
